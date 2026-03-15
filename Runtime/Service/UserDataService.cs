@@ -38,7 +38,7 @@ namespace Rossoforge.UserData.Service
 
         public void Load()
         {
-            if (!Files.Exists(_filePath))
+            if (!Files.ExistsFile(_filePath))
             {
                 return;
             }
@@ -61,8 +61,8 @@ namespace Rossoforge.UserData.Service
 
         public void Delete()
         {
-            if (Files.Exists(_filePath))
-                Files.Delete(_filePath);
+            if (Files.ExistsFile(_filePath))
+                Files.DeleteFile(_filePath);
 
             CurrentSave = new T();
         }

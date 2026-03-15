@@ -16,7 +16,7 @@
 
 **Dependencies:**
 * [Rossoforge-Core](https://github.com/rossogames/Rossoforge-Core.git)
-
+* [Rossoforge-Utils](https://github.com/rossogames/Rossoforge-Utils.git)
 #
 This package is part of the **Rossoforge** suite, designed to streamline and enhance Unity development workflows.
 

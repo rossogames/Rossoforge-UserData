@@ -1,0 +1,19 @@
+{
+    "name": "Rossoforge.UserData.Editor",
+    "rootNamespace": "Rossoforge.UserData.Editor",
+    "references": [
+        "GUID:eceda2bb70a6cdf4290aea64360d5cd7",
+        "GUID:7533d169e9f01454ba898c5bce48fa7a"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
